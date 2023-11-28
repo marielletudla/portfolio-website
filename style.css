@@ -1,0 +1,64 @@
+html,body{
+    height: 100%;
+    background-image: linear-gradient(to right,#666C49,#C4B197);
+    }
+    
+    body {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    main {
+    flex: 1 0 auto;
+
+    }
+
+    .hero-text{
+        font-size: 5vw;
+        font-family:'Fjalla One', sans-serif ;
+        
+    }
+    
+    .btn-primary{
+        background-color: #666C49;
+    }
+
+
+
+    footer{
+    flex-shrink: 0;
+    }
+    
+    header {
+    background: no-repeat center center;
+    background-size: cover;
+    color:white ;
+
+    }
+    
+    .color-overlay {
+    background-color: rgba(0,0,0,0.4);
+    min-height: 60vh;
+    }
+    
+    .singleCol {
+    max-width: 750px;
+    }
+    
+    footer {
+    background-color: #3a3a3a;
+    }
+    
+    footer a{
+    color: white;
+    }
+    
+    footer a:hover{
+    color: #dfdfdf;
+    }
+    
+    @media (max-width: 768px){
+        .color-overlay{
+        min-height: 30vh;
+        } 
+    }
